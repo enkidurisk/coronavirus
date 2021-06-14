@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+</IfModule>
+
+
+
+
+
+#Go to directory folder to beranda.php
+DirectoryIndex beranda.php
+
+
+#denied access REQUEST_FILENAME
+Options All -Indexes
+
+#error 404 not found
+ErrorDocument 404 http://localhost/Coronavirus/error
+

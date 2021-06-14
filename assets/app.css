@@ -1,0 +1,72 @@
+/*Scrollbar*/
+::-webkit-scrollbar{
+  width: 5px;
+  height: 0px;
+  background: #0f0f0f;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  height: 0px;
+  background: #004430;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+  width: 5px;
+  height: 0px;
+  background: #383838;
+  border-radius: 15px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+html, body, .container-fluid, #map {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    
+   
+  }
+
+
+  .row-map {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  }
+  .row-info {
+    width: 100%;
+    height: 15%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .col-sm {
+    padding: 0px;
+  }
+  
+  .info {
+    padding: 6px 8px;
+    font: 16px sans-serif;
+    color: aliceblue;
+    background: #383838;
+    border-radius: 5px;
+  }
+  .info h5 {
+    margin: 0 0 5px;
+    color: aliceblue;
+  }
+  .styleLabel{
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    /*text-shadow: 2px 2px 5px white;*/
+  }

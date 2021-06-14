@@ -1,0 +1,21 @@
+{    
+    "name" : "Corona virus Disease 19",
+    "short_name" : "COVID-19",
+    "start_url" : "beranda",
+    "background_color" : "#1f1f1f",
+    "theme_color" : "#1f1f1f",
+    "display": "standalone",
+    "icons": [
+        {
+            "src" : "images/covid192.ico",
+            "sizes" : "192x192",
+            "type" : "image/png"
+        },
+        {
+            "src":"images/covid256.ico",
+            "sizes":"256x256",
+            "type":"image/png"
+        }
+    ]
+    
+}

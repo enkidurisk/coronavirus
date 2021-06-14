@@ -1,0 +1,14 @@
+Aplikasi COVID-19
+
+Ditulis Oleh Enkidu
+
+
+cara memasukkan di xampp localhost
+
+Tutorial ini diteruskan jika telah menginstall xampp di windows, linux MacOS Versi terbaru
+1. Download COVID-19 di google Drive
+2. masukkan file tersebut ke C:/xampp/htdocs/Taruh file disini
+3. Aktifkan Apache dan mysql di xampp
+4. Jalankan localhost/Coronavirus/ otomatis halaman index.php akan terbuka
+5. selesai kini tinggal melihat laporan COVID-19 dengan Satu Aplikasi
+
