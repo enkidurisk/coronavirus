@@ -328,7 +328,7 @@
 
     <ul class="list-unstyled">
         <li>
-        <a href="https://www.instagram.com/yusra_budiman/" class="text-white">Instagram</a>
+        <a href="https://www.instagram.com/srokhsb/" class="text-white">Instagram</a>
         </li>
         <li>
         <a href="https://www.facebook.com/enkidurisk/" class="text-white">Facebook</a>
