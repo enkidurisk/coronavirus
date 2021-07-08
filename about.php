@@ -692,7 +692,7 @@
                       },1000);
 
 
-                      var ResetSeason = new Date("Jun 18, 2021 17:00:00").getTime();
+                      var ResetSeason = new Date("Sep 26, 2021 17:00:00").getTime();
 
                       var intervalData = setInterval(function(){
                           var countNow = new Date().getTime();
