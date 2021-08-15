@@ -218,7 +218,7 @@
                 <div class="modal-body list-group" id="dataSet">
                     <p class="list-group-item rounded-sm" id="clockDisplay"></p>
                     <p class="list-group-item rounded-sm" id="clock-native"></p>
-                    <p class="list-group-item rounded-sm" id="GoSchool"></p>
+                    <p class="list-group-item rounded-sm" id="Gohardschool"></p>
                     <p class="list-group-item rounded-sm" id="ResetReasonMoba"></p>
                 </div>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Okee Sip👍</button>
@@ -669,7 +669,7 @@
 
                       //Data go to school
 
-                      var GoDateCountDate = new Date("Jun 20, 2021 05:50:00").getTime();
+                      var GoDateCountDate = new Date("Aug 20, 2025 06:00:00").getTime();
 
                       var intervalDate = setInterval(function(){
                           var nowDate = new Date().getTime();
@@ -681,12 +681,12 @@
                               var TimeThreeDate = Math.floor((GoDate % (1000 * 60 * 60)) / (1000 * 60));
                               var TimeFourDate  = Math.floor((GoDate % (1000 * 60)) / (1000));
 
-                              document.getElementById("GoSchool")
-                              .innerHTML = 'Tahun Tamat Sekolah 20 Juni 2021 | 05:50:00 <br> ' + 'Tersisa: ' + TimeOneDate + 'h ' + TimeTwoDate + 'j ' + TimeThreeDate + 'm ' + TimeFourDate + 'd ';
+                              document.getElementById("Gohardschool")
+                              .innerHTML = 'Tahun Kemungkinan selesai Kuliah 20 Agustus 2025 | 06:00:00 <br> ' + 'Tersisa: ' + TimeOneDate + 'h ' + TimeTwoDate + 'j ' + TimeThreeDate + 'm ' + TimeFourDate + 'd ';
 
                               if(GoDate < 0){
                                   clearInterval(intervalDate);
-                                      document.getElementById("GoSchool").innerHTML = 'Sekarang Tamat Sekolah SMK Panca Budi';
+                                      document.getElementById("Gohardschool").innerHTML = 'Selamat Merayakan Kelulusan Kuliah S1';
                                   
                               }
                       },1000);

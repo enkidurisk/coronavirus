@@ -57,7 +57,7 @@
    $feeds = $_GET['feeds']; //Get Category CURL
 
    $curl = curl_init();
-   curl_setopt($curl, CURLOPT_URL, "http://newsapi.org/v2/top-headlines?country=id&category=".$feeds."&apiKey=fc057b6fa9994decb4fe70b0d7d6044a");
+   curl_setopt($curl, CURLOPT_URL, "http://newsapi.org/v2/top-headlines?country=id&category=".$feeds."&apiKey=ba98b202c56b4956b1fb107d12a765c2");
    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
    $output = curl_exec($curl);
    curl_close($curl);
