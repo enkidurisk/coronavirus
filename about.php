@@ -669,7 +669,7 @@
 
                       //Data go to school
 
-                      var GoDateCountDate = new Date("Aug 20, 2025 06:00:00").getTime();
+                      var GoDateCountDate = new Date("Aug 20, 2026 06:00:00").getTime();
 
                       var intervalDate = setInterval(function(){
                           var nowDate = new Date().getTime();
@@ -682,7 +682,7 @@
                               var TimeFourDate  = Math.floor((GoDate % (1000 * 60)) / (1000));
 
                               document.getElementById("Gohardschool")
-                              .innerHTML = 'Tahun Kemungkinan selesai Kuliah 20 Agustus 2025 | 06:00:00 <br> ' + 'Tersisa: ' + TimeOneDate + 'h ' + TimeTwoDate + 'j ' + TimeThreeDate + 'm ' + TimeFourDate + 'd ';
+                              .innerHTML = 'Tahun Kemungkinan selesai Kuliah 20 Agustus 2026 | 06:00:00 <br> ' + 'Tersisa: ' + TimeOneDate + 'h ' + TimeTwoDate + 'j ' + TimeThreeDate + 'm ' + TimeFourDate + 'd ';
 
                               if(GoDate < 0){
                                   clearInterval(intervalDate);
